@@ -49,8 +49,8 @@ namespace LazyAdmin
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                   name: "Blog",
-                   pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                    name: "Blog",
+                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute(
                     name: "Admin",
                     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");

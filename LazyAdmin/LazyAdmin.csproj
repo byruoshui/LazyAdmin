@@ -2,18 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>ef9aa3cb-fd2a-4771-908b-aed5d567a3db</UserSecretsId>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="wwwroot\lib\**" />
-    <Content Remove="wwwroot\lib\**" />
-    <EmbeddedResource Remove="wwwroot\lib\**" />
-    <None Remove="wwwroot\lib\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Areas\Blog\Models\" />
-  </ItemGroup>
 
 </Project>
