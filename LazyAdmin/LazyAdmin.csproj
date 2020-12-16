@@ -11,4 +11,9 @@
     <None Remove="wwwroot\lib\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Blog\Models\" />
+  </ItemGroup>
+
 </Project>
