@@ -5,4 +5,11 @@
     <UserSecretsId>ef9aa3cb-fd2a-4771-908b-aed5d567a3db</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="Areas\Blog\Models\" />
+    <Folder Include="wwwroot\blog\" />
+  </ItemGroup>
+
 </Project>
