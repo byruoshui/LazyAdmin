@@ -48,11 +48,11 @@ namespace LazyAdmin
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.Map("/", context =>
-                {
-                    context.Response.Redirect("blog/home");
-                    return Task.CompletedTask;
-                });
+                //endpoints.Map("/", context =>
+                //{
+                //    context.Response.Redirect("blog/home");
+                //    return Task.CompletedTask;
+                //});
                 endpoints.MapControllerRoute(
                     name: "Blog",
                     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");

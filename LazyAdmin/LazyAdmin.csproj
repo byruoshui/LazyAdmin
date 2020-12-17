@@ -6,9 +6,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Blog\**" />
+    <Compile Remove="wwwroot\blog\**" />
+    <Content Remove="Areas\Blog\**" />
+    <Content Remove="wwwroot\blog\**" />
+    <EmbeddedResource Remove="Areas\Blog\**" />
+    <EmbeddedResource Remove="wwwroot\blog\**" />
+    <None Remove="Areas\Blog\**" />
+    <None Remove="wwwroot\blog\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Areas\Blog\Models\" />
-    <Folder Include="wwwroot\blog\" />
   </ItemGroup>
 
   <ItemGroup>
